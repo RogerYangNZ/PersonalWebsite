@@ -26,7 +26,7 @@ header::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../images/queenstown-banner.jpg');
+ background-image: url('../Images/queenstown-banner.jpg');
   background-size: cover; /* Ensure it covers the area */
   background-position: center center; /* Center the image */
   background-repeat: no-repeat;
