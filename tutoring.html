@@ -51,7 +51,9 @@
         please feel free to contact me via email at roger.nz99@gmail.com, or
         send a message using the form below.
       </p>
-      <form action="php/submit_form.php" method="post">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        
+        <input type="hidden" name="access_key" value="a232c7a7-3c55-497f-98be-a4a35f41ec74">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required /><br />
 
@@ -61,6 +63,7 @@
         <label for="message">Message:</label><br />
         <textarea id="message" name="message" rows="4" required></textarea
         ><br />
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
         <input type="submit" value="Send Message" />
       </form>
