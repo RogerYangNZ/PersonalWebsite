@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = strip_tags(trim($_POST["message"]));
 
     // Specify where to send the email
-    $recipient = "your.email@example.com"; // CHANGE THIS TO YOUR EMAIL
+    $recipient = "roger.nz99@gmail.com"; // CHANGE THIS TO YOUR EMAIL
 
     // Set the email subject.
     $subject = "New contact from $name";
